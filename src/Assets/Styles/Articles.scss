@@ -1,0 +1,47 @@
+.content-utama {
+    display: flex;
+
+    .content-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-samping {
+        width: 450px;
+        height: max-content;
+        padding: 0 10px;
+        box-sizing: border-box;
+        margin: 10px 30px;
+
+
+        .input {
+            padding: 25px;
+            background-color: rgb(211, 208, 208);
+            border-radius: 20px;
+        }
+
+        .topic {
+            .judul {
+                font-size: 40px;
+                font-weight: 700;
+                border-bottom: 1px solid black;
+                padding: 10px;
+            }
+
+            .isi {
+                cursor: pointer;
+
+                div {
+                    border-bottom: 1px solid black;
+                    padding: 20px 10px;
+                }
+            }
+        }
+    }
+}
+
+.isi {
+    div:hover {
+        color: grey;
+    }
+}

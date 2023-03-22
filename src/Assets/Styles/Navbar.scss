@@ -1,0 +1,32 @@
+.container-navbar {
+    height: 100px;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+
+    .blogpost {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        font-weight: 700;
+    }
+
+    .menu {
+        font-size: 25px;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 15px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+
+.menu {
+    div:hover {
+        color: grey;
+    }
+}

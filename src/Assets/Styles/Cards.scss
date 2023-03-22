@@ -1,0 +1,44 @@
+.container-card {
+    width: 1100px;
+    border: 1px solid rgb(211, 208, 208);
+    height: 270px;
+    margin: 10px 15px;
+    display: flex;
+
+    img {
+        width: 400px;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .card-content {
+        width: 100%;
+        position: relative;
+
+        .title {
+            font-size: 30px;
+            font-weight: 600;
+            padding: 10px 20px;
+            background-color: rgb(211, 208, 208);
+            height: max-content;
+        }
+
+        .author,
+        .publish {
+            margin: 14px 20px;
+            font-size: 14px;
+            color: grey;
+        }
+
+        .description {
+            margin: 10px 20px;
+            font-size: 18px;
+        }
+
+        .button {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+    }
+}
