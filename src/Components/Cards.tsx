@@ -14,7 +14,6 @@ type dataProps = {
 }
 
 export const Cards = (props: dataProps):any => {
-    console.log(props.data);
     return (
         <>
         {props.data.map((val) => {
